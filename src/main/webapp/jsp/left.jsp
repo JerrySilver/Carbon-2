@@ -36,13 +36,39 @@
             </a>
             <div class="collapse" id="ui">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <button class="btn btn-lg btn-primary btn-block" type="button" onclick="transCd()">成都近十年气温数据展示</button></li>
-                    <li class="nav-item"> <button class="btn btn-lg btn-primary btn-block" type="button" onclick="transBj()">北京近十年气温数据展示</button></li>
-                    <li class="nav-item"> <button class="btn btn-lg btn-primary btn-block" type="button" onclick="transHeb()">哈尔滨近十年气温数据展示</button></li>
-                    <li class="nav-item"> <button class="btn btn-lg btn-primary btn-block" type="button" onclick="transXz()">西藏近十年气温数据展示</button></li>
-                    <li class="nav-item"> <button class="btn btn-lg btn-primary btn-block" type="button" onclick="transTlf()">吐鲁番近十年气温数据展示</button></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="transCd()">
+                            <i class="mdi mdi-city menu-icon"></i>
+                            <span class="menu-title">成都近十年气温数据展示</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="transBj()">
+                            <i class="mdi mdi-city menu-icon"></i>
+                            <span class="menu-title">北京近十年气温数据展示</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="transHeb()">
+                            <i class="mdi mdi-city menu-icon"></i>
+                            <span class="menu-title">哈尔滨近十年气温数据展示</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="transXz()">
+                            <i class="mdi mdi-city menu-icon"></i>
+                            <span class="menu-title">西藏近十年气温数据展示</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="transTlf()">
+                            <i class="mdi mdi-city menu-icon"></i>
+                            <span class="menu-title">吐鲁番近十年气温数据展示</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
+
         </li>
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
@@ -69,4 +95,3 @@
         </li>
     </ul>
 </nav>
-
